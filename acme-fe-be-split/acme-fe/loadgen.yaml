@@ -57,7 +57,7 @@ spec:
               "/usr/local/bin/python",
               "/usr/local/bin/locust",
               "--host",
-              "http://$FRONTEND_ADDR",
+              "http://$(FRONTEND_ADDR)",
               "-c",
               "10",
               "-r",
